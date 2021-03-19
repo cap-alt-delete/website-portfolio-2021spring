@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /* uses CSS universal selector (*) and overrides/resets browser's auto style */
+
+h1 {
+  padding: 50px;
+  /* border is size/stroke width, style, color */
+  border-bottom: 1px solid #5D6063;
+  /* border has top/R/L/bottom specifiers like padding */
+}
+
+p {
+  padding: 20px 0 20px 10px;
+  /* defining 2 values defines vertical horizontal padding shorthand */
+  /* defining 4 values will assign them as padding clockwise */
+  margin-top: 25px; /* smaller top margin will collapse into the bigger bottom one - minimum space between elements defined */
+  margin-bottom: 50px; /* margins are always transparent, not clickable */
+}
+
+h1, p {
+  background-color: #DDE0E3; /* light gray */
+}
+em, strong {
+  background-color: #B2D6FF; /* light blue */
+  display: inline; /* this is the default for em and strong */
+}
+
+strong {
+  margin: 50px;
+}
+
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px; /* height and width are content specific, padding and border added to that */
+  box-sizing: border-box; /*changes the ^ default method of calculating width*/
+  margin: 20px auto; /* only works on blocks with explicitly defined width */
+}
