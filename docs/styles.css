@@ -1,0 +1,54 @@
+/* resets browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .typewriter-page {
+  width: auto; NEED TO SET TO FIT TYPEWRITER IMAGE
+} */
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 2em;
+  font-family: "Courier", monospace;
+  font-size: 3em;
+  color: #444444; /* dark gray */
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: .65em;
+  font-family: "Courier New", "Courier", monospace;
+  font-size: 1.75em;
+  color: #444444; /* dark gray */
+}
+
+nav.main-nav {
+  height: 3em;
+}
+
+nav.main-nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav.main-nav > ul > li {
+  padding: 2em;
+}
+
+nav.main-nav > ul > li > a {
+  color: #444444; /* dark gray */
+  text-decoration: none;
+  font-family: "Courier", monospace;
+  font-size: 1.25em;
+}
