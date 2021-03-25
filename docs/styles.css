@@ -5,9 +5,11 @@
   box-sizing: border-box;
 }
 
-/* .typewriter-page {
-  width: auto; NEED TO SET TO FIT TYPEWRITER IMAGE
-} */
+.typewriter-page {
+  font-family: "Courier", monospace;
+  color: #444444; /* dark gray */
+/*  width: auto; NEED TO SET TO FIT TYPEWRITER IMAGE */
+}
 
 .title {
   display: flex;
@@ -15,9 +17,7 @@
   align-items: center;
 
   height: 2em;
-  font-family: "Courier", monospace;
   font-size: 3em;
-  color: #444444; /* dark gray */
 }
 
 .subtitle {
@@ -28,7 +28,6 @@
   height: .65em;
   font-family: "Courier New", "Courier", monospace;
   font-size: 1.75em;
-  color: #444444; /* dark gray */
 }
 
 nav.main-nav {
@@ -43,12 +42,69 @@ nav.main-nav > ul {
 }
 
 nav.main-nav > ul > li {
-  padding: 2em;
+  padding: 2.5em;
 }
 
 nav.main-nav > ul > li > a {
-  color: #444444; /* dark gray */
   text-decoration: none;
-  font-family: "Courier", monospace;
+  font-size: 1.1em;
+  color: #444444;
+}
+
+nav.main-nav > ul > li > a:hover {
+  text-decoration: none;
+  font-size: 1.75em;
+  color: #A91B0D; /*red pen color*/
+}
+
+.page-section {
+  .padding: 2.5em;
+}
+
+.page-section > h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 1.2em;
+}
+
+.page-section > h2 {
+  display: flex;
+  align-self: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.page-section > h3 {
+  display: flex;
+  justify-content: center;
   font-size: 1.25em;
+  font-weight: bold;
+}
+
+.page-section > h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25em;
+}
+
+.page-section > p {
+  padding: 1em;
+  font-size: 1.15em;
+}
+
+.page-section > p > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444444;
+}
+
+.page-section > p > a:hover {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #A91B0D;
 }

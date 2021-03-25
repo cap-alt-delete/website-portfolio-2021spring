@@ -150,3 +150,16 @@
               direct address: https://thenounproject.com/iconghost/collection/doodle-coffee-cafe/?i=1071949
               title: Coffee Ring
               user: IconsGhost
+
+11. Second coffee ring - to make O's in Loose Leaf coffee rings
+
+(Annotations) For brand logo (like this idea better because it plays into idea drink ring on physical loose leaf paper, not just tea)
+
+(Rights) "This icon is licensed as Creative Commons CCBY / When using it for any project, you are required to give credit to the icon‘s creator or purchase a royalty–free license."
+
+(Citations)
+
+              site: thenounproject.com
+              direct address: https://thenounproject.com/iconghost/collection/doodle-coffee-cafe/?i=1071954
+              title: Coffee Ring
+              user: IconsGhost
