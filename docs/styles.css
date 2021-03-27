@@ -5,9 +5,27 @@
   box-sizing: border-box; /*measurement now includes padding and borders*/
 }
 
+.body {
+  background-color: #A91B0D;
+} /*why doesn't this change border of typerwriter page?*/
+
+@media only screen and (max-width: 600px) {
+  .typerwriter-image > img {
+    display: none;
+  }
+} /*removing typewriter for smaller screens*/
+
+.typewriter-image {
+  display: flex;
+  justify-content: center;
+
+  position: fixed;
+  bottom: 0px;
+}
+
 .typewriter-page {
   margin: 0 auto; /*centers*/
-  max-width: 50em;
+  max-width: 45em;
 
   background-color: #FAFAFA; /* off-white */
 
@@ -58,14 +76,16 @@ nav.main-nav > ul > li {
 
 nav.main-nav > ul > li > a {
   text-decoration: none;
-  font-size: 1em;
-  color: #444444;
+  font-weight: bolder;
+  font-size: .85em;
+  color: #A91B0D; /*red pen color*/
 }
 
 nav.main-nav > ul > li > a:hover {
   text-decoration: none;
   font-size: 1.25em;
-  color: #A91B0D; } /*red pen color*/
+  color: #444444;
+}
 
 .page-section > h1 {
     padding-top: 1em;
@@ -115,16 +135,17 @@ nav.main-nav > ul > li > a:hover {
   font-size: 1em;
 }
 
-.page-section > p > a {
+.page-section > p > a,
+.page-section > p > strong {
   text-decoration: none;
   font-weight: bold;
-  color: #444444;
+  color: #A91B0D;
 }
 
 .page-section > p > a:hover {
   text-decoration: none;
   font-size: 1.3em;
-  color: #A91B0D; /* edit pen red*/
+  color: #444444;
 }
 
 .menu-container > h1 {
@@ -172,4 +193,5 @@ nav.main-nav > ul > li > a:hover {
   padding-top: 2em;
   text-align: center;
   font-size: .5em;
+  padding-bottom: 40em;
 }
