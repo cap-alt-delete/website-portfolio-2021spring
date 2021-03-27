@@ -9,7 +9,7 @@ body {
   background-color: #A9A9A9;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .typewriter-image > img {
     display: none;
   }
@@ -107,7 +107,7 @@ body {
 */
 
 
-nav.main-nav {
+nav {
   position: -webkit-sticky; /*for safari - not working*/
   position: sticky;
   top: 0;
