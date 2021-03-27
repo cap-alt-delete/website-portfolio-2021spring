@@ -10,17 +10,25 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-  .typerwriter-image > img {
+  .typewriter-image > img {
     display: none;
   }
-} /*removing typewriter for smaller screens*/
+} /*removing typewriter for smaller screens - need to style nav-bar and header too*/
+
+.typewriter-and-page-container {
+  margin: 0 auto; /*centers*/
+  max-width: 60em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .typewriter-image {
-  display: flex;
-  justify-content: center;
-
   position: fixed;
   bottom: 0px;
+  display: flex;
+  align-self: center; /*centers typerwriter over page*/
 }
 
 .typewriter-page {
@@ -33,7 +41,7 @@ body {
   color: #444444; /* dark gray */
 
   line-height: 1.5;
-  padding: 2em 1em;
+  padding: 1em 1em;
   padding-left: 2em;
   padding-right: 2em;
 
@@ -43,6 +51,7 @@ body {
 
 }
 
+/* formatting for img-opt */
 .title {
   display: flex;
   justify-content: center;
@@ -62,13 +71,54 @@ body {
   font-size: 1.75em;
 }
 
+
+/*formatting for screen reader option - how to switch between two?
+.title-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  height: 2em;
+  font-size: 4em;
+  color: #222222;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  height: .5em;
+  font-family: "Courier New", "Courier", monospace;
+  font-size: 1.75em;
+}
+
+.text-l {
+  display: flex;
+  flex-direction: column;
+  padding-right: .5em;
+}
+
+.sr-only {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+*/
+
+
+nav.main-nav {
+  position: -webkit-sticky; /*for safari - not working*/
+  position: sticky;
+  top: 0;
+}
+
 nav.main-nav > ul {
     list-style-type: none;
     height: 3em;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
 }
 
 nav.main-nav > ul > li {
