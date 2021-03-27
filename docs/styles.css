@@ -5,11 +5,11 @@
   box-sizing: border-box; /*measurement now includes padding and borders*/
 }
 
-.body {
-  background-color: #A91B0D;
-} /*why doesn't this change border of typerwriter page?*/
+body {
+  background-color: #A9A9A9;
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .typerwriter-image > img {
     display: none;
   }
@@ -68,6 +68,7 @@ nav.main-nav > ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }
 
 nav.main-nav > ul > li {
