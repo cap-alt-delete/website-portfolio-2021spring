@@ -6,14 +6,8 @@
 }
 
 body {
-  background-color: #A9A9A9;
+  background-color: #e6d3d1;
 }
-
-@media only screen and (max-width: 600px) {
-  .typewriter-image > img {
-    display: none;
-  }
-} /*removing typewriter for smaller screens - need to style nav-bar and header too*/
 
 .typewriter-and-page-container {
   margin: 0 auto; /*centers*/
@@ -31,6 +25,12 @@ body {
   align-self: center; /*centers typerwriter over page*/
 }
 
+@media only screen and (max-width: 600px) {
+  .typewriter-image > img {
+    display: none;
+  }
+} /*removing typewriter for smaller screens - need to style nav-bar and header too*/
+
 .typewriter-page {
   margin: 0 auto; /*centers*/
   max-width: 45em;
@@ -42,8 +42,8 @@ body {
 
   line-height: 1.5;
   padding: 1em 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
 
   display: flex;
   justify-content: center;
@@ -52,59 +52,69 @@ body {
 }
 
 /* formatting for img-opt */
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media only screen {
+  .sr-only {
+    display: none;
+  }
 
-  height: 2em;
-  font-size: 3em;
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2em;
+    font-size: 3em;
+  }
+
+  .subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: .5em;
+    font-family: "Courier New", "Courier", monospace;
+    font-size: 1.75em;
+  }
 }
 
-.subtitle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* formatting for screen reader option*/
+@media only speech {
+  .img-opt {
+    display: none;
+  }
 
-  height: .5em;
-  font-family: "Courier New", "Courier", monospace;
-  font-size: 1.75em;
+  .title-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: 2em;
+    font-size: 4em;
+    color: #222222;
+  }
+
+  .subtitle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: .5em;
+    font-family: "Courier New", "Courier", monospace;
+    font-size: 1.75em;
+  }
+
+  .text-l {
+    display: flex;
+    flex-direction: column;
+    padding-right: .5em;
+  }
+
+  .sr-only {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
 }
-
-
-/*formatting for screen reader option - how to switch between two?
-.title-text {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-
-  height: 2em;
-  font-size: 4em;
-  color: #222222;
-}
-
-.subtitle {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-
-  height: .5em;
-  font-family: "Courier New", "Courier", monospace;
-  font-size: 1.75em;
-}
-
-.text-l {
-  display: flex;
-  flex-direction: column;
-  padding-right: .5em;
-}
-
-.sr-only {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-*/
 
 
 nav {
@@ -122,7 +132,8 @@ nav.main-nav > ul {
 }
 
 nav.main-nav > ul > li {
-  padding-top: 2em;
+  padding-top: 8em;
+  padding-bottom: 7em;
 }
 
 nav.main-nav > ul > li > a {
@@ -139,12 +150,14 @@ nav.main-nav > ul > li > a:hover {
 }
 
 .page-section > h1 {
-    padding-top: 1em;
+    padding-top: 2.5em;
+    padding-bottom: .75em;
     color: #333333; /* darker charcoal for emphasis */
     font-weight: normal;
 
     display: flex;
     justify-content: center;
+    font-size: 1.5em;
 }
 
 .page-section > h2 {
@@ -178,7 +191,9 @@ nav.main-nav > ul > li > a:hover {
   text-align: center;
   padding-top: 1em;
 
+  font-family: "Courier New", "Courier", monospace;
   font-size: 1.25em;
+  font-weight: lighter;
 }
 
 .page-section > p {
@@ -187,7 +202,8 @@ nav.main-nav > ul > li > a:hover {
 }
 
 .page-section > p > a,
-.page-section > p > strong {
+.page-section > p > strong,
+.credits-section > a {
   text-decoration: none;
   font-weight: bold;
   color: #A91B0D;
@@ -208,7 +224,7 @@ nav.main-nav > ul > li > a:hover {
 }
 
 .menu-container > h2 {
-  padding-top: 1em;
+  padding-top: 2em;
   text-align: center;
 
   font-size: 1.25em;
@@ -238,11 +254,19 @@ nav.main-nav > ul > li > a:hover {
 
   font-size: .85em;
   font-style: italic;
+  font-family: "Courier New", "Courier", monospace;
 }
 
 .credits-section {
   padding-top: 2em;
   text-align: center;
   font-size: .5em;
-  padding-bottom: 40em;
+  padding-bottom: 30em;
+  font-family: "Courier New", "Courier", monospace;
+}
+
+.credits-section > a:hover {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #444444;
 }
