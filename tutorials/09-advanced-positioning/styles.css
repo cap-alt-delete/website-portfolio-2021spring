@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.example {
+  display: flex;
+  justify-content: space-around;
+
+  width: 800px;
+  margin: 50px 0;
+  background-color: #D6E9FE;
+}
+
+.item img {
+  display: block;
+}
+
+.item-relative {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.item-absolute {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.absolute {
+  position: relative; /*lets absolute positioned item stay in flow of page by combining absolute with relative through parent container*/
+}
+
+.item-fixed {
+  position: fixed; /*won't move with page, sticks to viewport*/
+  bottom: 0;
+  right: 0;
+}
