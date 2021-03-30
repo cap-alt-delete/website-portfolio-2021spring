@@ -129,7 +129,7 @@ body {
 }
 
 
-nav {
+.main-nav {
   position: -webkit-sticky; /*for safari - not working*/
   position: sticky;
   top: 0;
