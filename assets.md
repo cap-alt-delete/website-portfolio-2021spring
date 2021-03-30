@@ -1,31 +1,36 @@
 | Asset Needed                     | Solution         | Used? |
 | -------------------------------- | ---------------- | ----- |
-| Old typewriter font              | Font squirrel    |       |
+| Old typewriter font              | Font squirrel    | Y     |
 | Handwriting font                 | Font squirrel    |       |
 | Café image                       | Unsplash         |       |
 | Bookshelf image                  | Unsplash         |       |
 | Book club or poster making image | Unsplash         |       |
-| Typewriter image                 | Pixy.org         |       |
+| Typewriter image                 | Pixy.org         | Y     |
 | Editing markings                 | the Noun Project |       |
 | Hand-drawn web icons             | the Noun Project |       |
-| Leaf symbol/logo                 | the Noun Project |       |
+| Coffee rings for Logo            | the Noun Project | Y     |
 
 *Running Credits:*
 
-1. “KINGTHINGS TRYPEWRITER” font
+1. “SPECIAL ELITE” font - USED
 
-(Annotations) For main portion of website, to look like typewriter is typing out web content
+(Annotations) For headers of website, to look like typewriter is typing out web content
 
-(Rights) “Kingthings License v1.00"
+(Rights) “Grant of Copyright License. Subject to the terms and conditions of
+    this License, each Contributor hereby grants to You a perpetual,
+    worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+    copyright license to reproduce, prepare Derivative Works of,
+    publicly display, publicly perform, sublicense, and distribute the
+    Work and such Derivative Works in Source or Object form.""
 
 (Citations)
 
               site: fontsquirrel.com
-              direct address: https://www.fontsquirrel.com/fonts/Kingthings-Trypewriter?q%5Bterm%5D=typewriter&q%5Bsearch_check%5D=Y
-              title: KINGTHINGS TRYPEWRITER
-              user: Kingthings
+              direct address: https://www.fontsquirrel.com/fonts/special-elite?filter%5Bclassifications%5D%5B0%5D=typewriter&q%5Bterm%5D=typewriter&q%5Bsearch_check%5D=Y
+              title: SPECIAL ELITE
+              user: Astigmatic
 
-2. “INDIE FLOWER" font
+2. “INDIE FLOWER" font - USED
 
 (Annotations) For playful side comments to make typing look like edited manuscript - this secondary font was chosen on the grounds of https://trydesignlab.com/blog/how-to-choose-the-right-font-for-your-design/ advice to use fonts with high contrast but also with a small amount of common ground (I thought Kingthings Trypewriter and Indie Flower had similar stroke weight, and Indie Flower uses the typewriter style "a")
 
@@ -86,7 +91,7 @@
               title: [untitled]
               user: Yonghyun Lee
 
-6. "BLACK AND WHITE PHOTO OF AN OLD TYPEWRITER"
+6. "BLACK AND WHITE PHOTO OF AN OLD TYPEWRITER" - USED
 
 (Annotations) To use as anchored image at the bottom of the site, from which the content will be "typed from" - need to edit this in Photoshop to get just the typewriter without background
 
@@ -138,7 +143,7 @@
               title: Tea Leaves
               user: BomSymbols, TH
 
-10. Logo option 2 - *coffee ring*
+10. Logo option 2 - *coffee ring* - USED
 
 (Annotations) For brand logo (like this idea better because it plays into idea drink ring on physical loose leaf paper, not just tea)
 
@@ -151,7 +156,7 @@
               title: Coffee Ring
               user: IconsGhost
 
-11. Second coffee ring - to make O's in Loose Leaf coffee rings
+11. Second coffee ring - to make O's in Loose Leaf coffee rings - USED
 
 (Annotations) For brand logo (like this idea better because it plays into idea drink ring on physical loose leaf paper, not just tea)
 
