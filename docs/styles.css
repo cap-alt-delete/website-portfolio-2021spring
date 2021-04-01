@@ -38,6 +38,7 @@ body {
   bottom: 0px;
   display: flex;
   align-self: center; /*centers typerwriter over page*/
+  z-index: 2
 }
 
 .typewriter-page {
@@ -119,6 +120,9 @@ body {
   .typewriter-image > img {
     display: none;
   }
+  .section-img > img {
+    display: none;
+  }
 } /*removing typewriter for smaller screens - need to style nav-bar and header too*/
 
 
@@ -155,7 +159,20 @@ nav.main-nav > ul > li > a:hover {
   color: #444444;
 }
 
-.page-section > h1 {
+.image-and-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1
+}
+
+.section-img {
+  position: absolute;
+  right: 625px;
+} /*how to position the 1st and last image on the right side using child selectors?*/
+
+.page-section > h1,
+.image-and-header > h1 {
     padding-top: 1.25em;
     padding-bottom: .5em;
     color: #333333; /* darker charcoal for emphasis */

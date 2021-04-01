@@ -2,9 +2,9 @@
 | -------------------------------- | ---------------- | ----- |
 | Old typewriter font              | Font squirrel    | Y     |
 | Handwriting font                 | Font squirrel    | Y     |
-| Café image                       | Unsplash         |       |
-| Bookshelf image                  | Unsplash         |       |
-| Book club or poster making image | Unsplash         |       |
+| Café image                       | Unsplash         | Y     |
+| Bookshelf image                  | Unsplash         | Y     |
+| Book club or poster making image | Unsplash         | Y     |
 | Typewriter image                 | Pixy.org         | Y     |
 | Editing markings                 | the Noun Project |       |
 | Hand-drawn web icons             | the Noun Project |       |
@@ -43,7 +43,7 @@
               title: INDIE FLOWER
               user: Kimberly Geswein
 
-3. Café Image taken at Vitals Coffee, Manhattan Beach, United States
+3. Café Image taken at Vitals Coffee, Manhattan Beach, United States - USED
 
 (Annotations) To be used for background of café section
 
@@ -59,7 +59,7 @@
               title: [untitled]
               user: Nathan Dumlao
 
-4. Bookshelf Image taken at Capitol Hill Books, Washington, United States
+4. Bookshelf Image taken at Capitol Hill Books, Washington, United States - USED
 
 (Annotations) To be used for background of bookstore section
 
@@ -75,7 +75,7 @@
               title: [untitled]
               user: Ashim D’Silva
 
-5. Poster Image taken in Brooklyn, United States
+5. Poster Image taken in Brooklyn, United States - USED
 
 (Annotations) To be used for background of the Under*grounds* section
 
@@ -145,7 +145,7 @@
 
 10. Logo option 2 - *coffee ring*
 
-(Annotations) For brand logo 
+(Annotations) For brand logo
 
 (Rights) "This icon is licensed as Creative Commons CCBY / When using it for any project, you are required to give credit to the icon‘s creator or purchase a royalty–free license."
 
