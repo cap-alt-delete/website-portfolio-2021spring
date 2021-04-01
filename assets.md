@@ -1,14 +1,14 @@
 | Asset Needed                     | Solution         | Used? |
 | -------------------------------- | ---------------- | ----- |
 | Old typewriter font              | Font squirrel    | Y     |
-| Handwriting font                 | Font squirrel    |       |
+| Handwriting font                 | Font squirrel    | Y     |
 | Café image                       | Unsplash         |       |
 | Bookshelf image                  | Unsplash         |       |
 | Book club or poster making image | Unsplash         |       |
 | Typewriter image                 | Pixy.org         | Y     |
 | Editing markings                 | the Noun Project |       |
 | Hand-drawn web icons             | the Noun Project |       |
-| Coffee rings for Logo            | the Noun Project | Y     |
+| Coffee rings for Logo            | the Noun Project |       |
 
 *Running Credits:*
 
@@ -139,13 +139,13 @@
 (Citations)
 
               site: thenounproject.com
-              direct address: https://thenounproject.com/term/tea-leaves/516755/
+              direct address: https://thenounproject.com/term/tea-leaves/849302/
               title: Tea Leaves
-              user: BomSymbols, TH
+              user: Tomas Knopp, CZ
 
-10. Logo option 2 - *coffee ring* - USED
+10. Logo option 2 - *coffee ring*
 
-(Annotations) For brand logo (like this idea better because it plays into idea drink ring on physical loose leaf paper, not just tea)
+(Annotations) For brand logo 
 
 (Rights) "This icon is licensed as Creative Commons CCBY / When using it for any project, you are required to give credit to the icon‘s creator or purchase a royalty–free license."
 
@@ -156,9 +156,9 @@
               title: Coffee Ring
               user: IconsGhost
 
-11. Second coffee ring - to make O's in Loose Leaf coffee rings - USED
+11. Second coffee ring
 
-(Annotations) For brand logo (like this idea better because it plays into idea drink ring on physical loose leaf paper, not just tea)
+(Annotations) For brand logo
 
 (Rights) "This icon is licensed as Creative Commons CCBY / When using it for any project, you are required to give credit to the icon‘s creator or purchase a royalty–free license."
 
