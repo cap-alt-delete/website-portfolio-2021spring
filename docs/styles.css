@@ -131,6 +131,7 @@ body {
   position: sticky;
   top: 0;
   background-color: #FAFAFA;
+  z-index: 3
 }
 
 nav.main-nav > ul {
