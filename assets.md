@@ -1,14 +1,15 @@
 | Asset Needed                     | Solution         | Used? |
 | -------------------------------- | ---------------- | ----- |
-| Old typewriter font              | Font squirrel    | Y     |
-| Handwriting font                 | Font squirrel    | Y     |
-| Café image                       | Unsplash         | Y     |
-| Bookshelf image                  | Unsplash         | Y     |
-| Book club or poster making image | Unsplash         | Y     |
-| Typewriter image                 | Pixy.org         | Y     |
-| Editing markings                 | the Noun Project |       |
-| Hand-drawn web icons             | the Noun Project |       |
-| Coffee rings for Logo            | the Noun Project |       |
+| Old typewriter font              | Font squirrel    | Y     |     
+| Handwriting font                 | Font squirrel    | Y     |     
+| Café image                       | Unsplash         | Y     |     
+| Bookshelf image                  | Unsplash         | Y     |     
+| Book club or poster making image | Unsplash         | Y     |     
+| Typewriter image                 | Pixy.org         | Y     |     
+| Editing markings                 | the Noun Project |       |     
+| Hand-drawn web icons             | the Noun Project |       |     
+| Coffee rings for Logo            | the Noun Project |       |     
+| Tea leaf Logo                    | the Noun project | Y     |     
 
 *Running Credits:*
 

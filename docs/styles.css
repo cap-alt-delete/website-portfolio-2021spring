@@ -97,30 +97,39 @@ body {
 
 
 @media only screen and (max-width: 635px) {
-/*
+/*how to autoshrink header items so it doesn't double line*/
   .header-container {
-      width: 100%
-    }
-
-  .nav-bar-container {
-    height: 2em;
+    display: flex;
+    width: 100%
   }
 
-  .main-nav > ul {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    padding: 0;
+  nav.main-nav > ul {
+      list-style-type: none;
+      display: flex;
+      height: 1em;
+      flex-direction: column;
+      align-items: center;
   }
 
   nav.main-nav > ul > li {
     padding: 0;
-  } */
+    margin: 0 auto;
+    width: 100%
+  }
+
+/*how to autoshrink <h1> so it doesn't double line*/
+  .page-section > h1,
+  .image-and-header > h1 {
+    margin: 0 auto;
+    width: 100%
+  }
 
   .typewriter-image > img {
     display: none;
   }
-  .section-img > img {
+  .section-img-book > img,
+  .section-img-cafe > img,
+  .section-img-poster > img {
     display: none;
   }
 } /*removing typewriter for smaller screens - need to style nav-bar and header too*/
@@ -167,10 +176,20 @@ nav.main-nav > ul > li > a:hover {
   z-index: 1
 }
 
-.section-img {
+.section-img-book {
   position: absolute;
-  right: 625px;
+  left: 610px;
 } /*how to position the 1st and last image on the right side using child selectors?*/
+
+.section-img-cafe {
+  position: absolute;
+  right: 600px;
+}
+
+.section-img-poster {
+  position: absolute;
+  left: 590px;
+}
 
 .page-section > h1,
 .image-and-header > h1 {
