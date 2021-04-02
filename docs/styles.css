@@ -118,15 +118,23 @@ nav.main-nav > ul > li {
 
 nav.main-nav > ul > li > a {
   text-decoration: none;
-  font-weight: bolder;
-  font-size: .85em;
+  font-weight: bold;
+  font-size: .92em;
   color: #A91B0D; /*red pen color*/
 }
 
 nav.main-nav > ul > li > a:hover {
   text-decoration: none;
-  font-size: 1.25em;
+  font-weight: bolder;
   color: #444444;
+}
+
+nav.main-nav > ul > li > a::after {
+  font-weight: bolder;
+  visibility: hidden;
+  overflow: hidden;
+  user-select: none;
+  pointer-events: none;
 }
 
 .image-and-header {
@@ -151,8 +159,8 @@ nav.main-nav > ul > li > a:hover {
   left: 595px;
 }
 
-.page-section > h1,
-.image-and-header > h1 {
+.page-section h1,
+.image-and-header h1 {
     padding-top: 1.25em;
     padding-bottom: .5em;
     color: #333333; /* darker charcoal for emphasis */
@@ -162,6 +170,15 @@ nav.main-nav > ul > li > a:hover {
     display: flex;
     justify-content: center;
     font-size: 1.75em;
+}
+
+h1::before {
+  display: block;
+  content: " ";
+  margin-top: -3em;
+  height: 3em;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .page-section > h2 {
@@ -217,7 +234,7 @@ em {
 
 .page-section > p > a:hover {
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #444444;
 }
 
