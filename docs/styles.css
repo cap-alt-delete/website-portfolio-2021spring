@@ -300,7 +300,7 @@ em {
   color: #444444;
 }
 
-@media only screen and (max-width: 635px) {
+@media only screen and (max-width: 685px) {
 /*how to autoshrink header items so it doesn't double line*/
   .title-text {
     padding-right: calc(10px + .5vw);
