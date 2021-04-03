@@ -1,5 +1,6 @@
-*Website Proposal*
+*Website Brief*
+(updated/condensed for the 4/6 draft)
 
 "Loose Leaf"
 
-**Proposal posted to Issues Queue:** For my website, I’d like to do a mockup for my friend’s dream business. She wants to open a hybrid bookstore-café, which for the project, I’m calling “Loose Leaf.” I want to convey the feel of a warm, eclectic physical space for writers and readers. I’m thinking to do this by making the website look as if it was typed out by an old-school typewriter. A site for this business would definitely need a page or section explaining the bookstore half and one explaining the café half (with a menu). The third key element is a page explaining what the business becomes after hours (a meeting site for book clubs, advocacy groups, etc. – I’m going to call this “the Under*grounds*” to play off of the café/coffee element). Along with those three pages, depending on how it’s progressing, I could add optional pages for events, contacting, and FAQs to make the website more extensive. I’m unsure whether I want to have separate pages or have sections on one running page. For the latter, I think scrolling from an anchored typewriter image to get to different sections could have a cool effect of “typing out” the website (although I’d need a navigation bar to allow for jumping around).
+This website is a mockup for my friend’s dream business. She wants to open a hybrid bookstore-café, which for the project, I’m calling “Loose Leaf.” The site features a breakdown of what can be found at the business: the bookstore section, the café, and an after-hours rentable space.
