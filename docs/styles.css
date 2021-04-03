@@ -119,18 +119,27 @@ nav.main-nav > ul > li {
 nav.main-nav > ul > li > a {
   text-decoration: none;
   font-weight: bold;
-  font-size: .92em;
+  font-size: .95em;
   color: #A91B0D; /*red pen color*/
+  padding-left: .7em;
+  padding-right: .7em;
+  border-left: 2px solid #A91B0D; /*removes border from HTML, makes link better for speech reader*/
+  border-right: 2px solid #A91B0D;
+  border-radius: 1px;
 }
 
 nav.main-nav > ul > li > a:hover {
   text-decoration: none;
   font-weight: bolder;
+  font-size: 1em;
   color: #444444;
+  border-left: 2px solid #444444;
+  border-right: 2px solid #444444;
 }
 
 nav.main-nav > ul > li > a::after {
   font-weight: bolder;
+  font-size: 1em;
   visibility: hidden;
   overflow: hidden;
   user-select: none;
@@ -172,13 +181,11 @@ nav.main-nav > ul > li > a::after {
     font-size: 1.75em;
 }
 
-h1::before {
+/*fixes navigation bar covering header on jump*/
+h1 span {
+  margin-top: -2.3em;        /* Size of fixed header */
+  padding-bottom: 2.3em;
   display: block;
-  content: " ";
-  margin-top: -3em;
-  height: 3em;
-  visibility: hidden;
-  pointer-events: none;
 }
 
 .page-section > h2 {
@@ -230,12 +237,23 @@ em {
   text-decoration: none;
   font-weight: bold;
   color: #A91B0D;
+  font-size: 1em;
 }
 
 .page-section > p > a:hover {
   text-decoration: none;
+  font-weight: bolder;
   font-size: 1.2em;
   color: #444444;
+}
+
+.page-section > p > a::after {
+  font-weight: bolder;
+  font-size: 1.2em;
+  visibility: hidden;
+  overflow: hidden;
+  user-select: none;
+  pointer-events: none;
 }
 
 .menu-container > h1 {
@@ -305,7 +323,7 @@ em {
   .title-text {
     padding-right: calc(10px + .5vw);
     height: calc(30px + 1.5vh);
-    font-size: calc(30px + 1.5vw);
+    font-size: calc(25px + 1.5vw);
   }
 
   .title-and-logo img {
@@ -314,7 +332,7 @@ em {
   }
 
   .subtitle {
-    font-size: calc(16px + 1.5vw);
+    font-size: calc(14px + 1.5vw);
     padding-top: calc(15px + .5vh);
     padding-bottom: calc(15px + 1.5vh);
   }
@@ -347,14 +365,17 @@ em {
     text-align: center;
   }
 
-  .typewriter-image img {
+  .typewriter-image {
     display: none;
   }
 
-  /*doesn't seem to be working?*/
-  .section-img-book img,
-  .section-img-cafe img,
-  .section-img-poster img {
-    display: none;
+  .section-img-book,
+  .section-img-cafe,
+  .section-img-poster {
+     display: none;
+  }
+
+  .credits-section {
+    padding-bottom: 4em;
   }
 } /*removing typewriter for smaller screens - need to style nav-bar and header too*/
