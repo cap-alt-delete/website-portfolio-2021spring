@@ -1,4 +1,4 @@
-/*custom font*/
+/*custom fonts*/
 @font-face {
   font-family: 'SpecialElite';
   src: url('SpecialElite-webfont.woff') format('woff');
@@ -20,6 +20,7 @@
   box-sizing: border-box; /*measurement now includes padding and borders*/
 }
 
+/* distinguishes typewriter page from background - using lighter shade of the red-pen color*/
 body {
   background-color: #e6d3d1;
 }
@@ -95,12 +96,13 @@ body {
   font-size: 1.5em;
 }
 
+/* makes nav bar stick to top of page when it's scrolled past */
 .nav-bar-container {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #FAFAFA;
-  z-index: 3;
+  z-index: 3; /* positions nav bar over side bar images */
 }
 
 nav.main-nav > ul {
@@ -137,6 +139,7 @@ nav.main-nav > ul > li > a:hover {
   border-right: 2px solid #444444;
 }
 
+/* makes invisible space for a:hover changes, so lines aren't thrown off */
 nav.main-nav > ul > li > a::after {
   font-weight: bolder;
   font-size: 1em;
@@ -153,10 +156,11 @@ nav.main-nav > ul > li > a::after {
   z-index: 1
 }
 
+/* relative absolute positioning to stick beside page section headers */
 .section-img-book {
   position: absolute;
-  left: 615px;
-} /*how to position the 1st and last image on the right side using child selectors?*/
+  left: 616px;
+}
 
 .section-img-cafe {
   position: absolute;
@@ -165,7 +169,7 @@ nav.main-nav > ul > li > a::after {
 
 .section-img-poster {
   position: absolute;
-  left: 595px;
+  left: 596px;
 }
 
 .page-section h1,
@@ -181,9 +185,9 @@ nav.main-nav > ul > li > a::after {
     font-size: 1.75em;
 }
 
-/*fixes navigation bar covering header on jump*/
+/* fixes issue of navigation bar partially covering header on jump */
 h1 span {
-  margin-top: -2.3em;        /* Size of fixed header */
+  margin-top: -2.3em;
   padding-bottom: 2.3em;
   display: block;
 }
@@ -225,6 +229,7 @@ h1 span {
   font-size: 1em;
 }
 
+/* styling for the handwriting side comments */
 em {
   font-family: 'IndieFlower', "Courier New", "Courier", monospace;
   font-weight: 300;
@@ -243,13 +248,14 @@ em {
 .page-section > p > a:hover {
   text-decoration: none;
   font-weight: bolder;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #444444;
 }
 
+/* makes invisible space for a:hover changes, so lines aren't thrown off */
 .page-section > p > a::after {
   font-weight: bolder;
-  font-size: 1.2em;
+  font-size: 1.1em;
   visibility: hidden;
   overflow: hidden;
   user-select: none;
@@ -318,8 +324,9 @@ em {
   color: #444444;
 }
 
+/*responsive to small screens, will update text size to fit screen and remove images that would throw off page*/
 @media only screen and (max-width: 685px) {
-/*how to autoshrink header items so it doesn't double line*/
+
   .title-text {
     padding-right: calc(10px + .5vw);
     height: calc(30px + 1.5vh);
