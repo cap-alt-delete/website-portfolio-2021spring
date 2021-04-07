@@ -174,7 +174,7 @@ nav.main-nav > ul > li > a::after {
 
 .section-img-poster {
   position: absolute;
-  left: 596px;
+  left: 590px;
 }
 
 .page-section h1,
@@ -327,6 +327,15 @@ em {
   text-decoration: none;
   font-size: 1.5em;
   color: #444444;
+}
+
+/* makes pinned images disappear when screen size starts to make them look unintentional and cut off*/
+@media only screen and (min-width: 686px) and (max-width: 975px) {
+  .section-img-book,
+  .section-img-cafe,
+  .section-img-poster {
+     display: none;
+  }
 }
 
 /*responsive to small screens, will update text size to fit screen and remove images that would throw off page*/
