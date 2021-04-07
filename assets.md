@@ -114,3 +114,12 @@
               direct address: https://thenounproject.com/term/tea-leaves/849302/
               title: Tea Leaves
               user: Tomas Knopp, CZ
+
+10. For the CSS animation of the subtitle, I tweaked the code from this web-post
+
+(Annotations) From the site: "Some use JavaScript, which may sometimes be preferable (literally adding a character at a time feels more like a real typewriter) and sometimes not be (potential accessibility concerns)." - This made me want to make the CSS work for better accessibility.
+
+              site: csstricks.com
+              direct address: https://css-tricks.com/snippets/css/typewriter-effect/
+              title: Typewriter Effect
+              user: Geoff Graham
