@@ -20,6 +20,11 @@
   box-sizing: border-box; /*measurement now includes padding and borders*/
 }
 
+/* adds smooth scroll effect to make the page section transitions more typewriter-like*/
+html {
+  scroll-behavior: smooth;
+}
+
 /* distinguishes typewriter page from background - using lighter shade of the red-pen color*/
 body {
   background-color: #e6d3d1;
@@ -308,8 +313,8 @@ em {
 .credits-section {
   padding-top: 2em;
   text-align: center;
-  font-size: .5em;
-  padding-bottom: 30em;
+  font-size: .75em;
+  padding-bottom: 20em;
   font-family: "Courier New", "Courier", monospace;
 }
 
