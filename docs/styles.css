@@ -79,8 +79,6 @@ body {
 }
 
 .title-text {
-  display: flex;
-  justify-content: center;
   align-items: center;
 
   padding-right: .4em;
@@ -103,28 +101,6 @@ body {
   font-weight: 200;
   font-size: 1.5em;
   text-align: center;
-
-/* typewriter effect from: https://css-tricks.com/snippets/css/typewriter-effect/ */
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .1em solid #A91B0D; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .4em; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(26, end),
-    blink-caret 1s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #A91B0D; }
 }
 
 /* makes nav bar stick to top of page when it's scrolled past */
@@ -184,7 +160,7 @@ nav.main-nav > ul > li > a::after {
   display: flex;
   justify-content: center;
   position: relative;
-  z-index: 1
+  z-index: 1 /* puts pinned image beneath typewriter */
 }
 
 /* relative absolute positioning to stick beside page section headers */
@@ -340,21 +316,46 @@ em {
   padding-top: 2em;
   text-align: center;
   font-size: .75em;
-  padding-bottom: 22em;
+  padding-bottom: 20em;
   font-family: "Courier New", "Courier", monospace;
 }
 
-.credits-section > em > a {
+.credits-section > p > em > a {
   text-decoration: none;
   font-weight: bold;
   color: #A91B0D;
 }
 
-.credits-section > em > a:hover {
-  text-decoration: none;
-  font-weight: bold;
+.credits-section > p > em > a:hover {
   font-size: 1.5em;
-  color: #A91B0D;
+}
+
+@media only screen and (min-width: 686px) {
+
+  .subtitle h1 {
+  /* typewriter effect from: https://css-tricks.com/snippets/css/typewriter-effect/ */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid #A91B0D; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .16em; /* Adjust as needed */
+    animation:
+      typing 3.5s steps(25, end),
+      blink-caret 1s step-end infinite;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #A91B0D; }
+  }
+
 }
 
 /* makes pinned images disappear when screen size starts to make them look unintentional and cut off*/
