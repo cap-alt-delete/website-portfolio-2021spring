@@ -109,7 +109,7 @@ body {
   border-right: .1em solid #A91B0D; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .5em; /* Adjust as needed */
+  letter-spacing: .4em; /* Adjust as needed */
   animation:
     typing 3.5s steps(26, end),
     blink-caret 1s step-end infinite;
@@ -340,19 +340,21 @@ em {
   padding-top: 2em;
   text-align: center;
   font-size: .75em;
-  padding-bottom: 20em;
+  padding-bottom: 22em;
   font-family: "Courier New", "Courier", monospace;
 }
 
 .credits-section > em > a {
   text-decoration: none;
-  color: #444444;
+  font-weight: bold;
+  color: #A91B0D;
 }
 
 .credits-section > em > a:hover {
   text-decoration: none;
+  font-weight: bold;
   font-size: 1.5em;
-  color: #444444;
+  color: #A91B0D;
 }
 
 /* makes pinned images disappear when screen size starts to make them look unintentional and cut off*/
@@ -386,7 +388,7 @@ em {
   .subtitle h1 {
     font-family: "Courier New", "Courier", monospace;
     font-weight: 200;
-    font-size: calc(14px + 1.5vw);
+    font-size: calc(12px + 1.5vw);
     text-align: center;
   }
 
