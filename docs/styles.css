@@ -58,8 +58,8 @@ body {
 
   line-height: 1.5;
   padding: 1em 1em;
-  padding-left: 2.5em;
-  padding-right: 2.5em;
+  padding-left: 3em;
+  padding-right: 3em;
 
   display: flex;
   justify-content: center;
@@ -128,7 +128,7 @@ nav.main-nav > ul > li {
 nav.main-nav > ul > li > a {
   text-decoration: none;
   font-weight: bold;
-  font-size: .95em;
+  font-size: .9em;
   color: #A91B0D; /*red pen color*/
   padding-left: .7em;
   padding-right: .7em;
@@ -140,7 +140,7 @@ nav.main-nav > ul > li > a {
 nav.main-nav > ul > li > a:hover {
   text-decoration: none;
   font-weight: bolder;
-  font-size: 1em;
+  font-size: .95em;
   color: #444444;
   border-left: 2px solid #444444;
   border-right: 2px solid #444444;
@@ -151,7 +151,7 @@ nav.main-nav > ul > li > a::after {
   content: attr(data-text);
   content: attr(data-text) / "";
   height: 0;
-  font-size: 1em;
+  font-size: .95em;
   font-weight: bolder;
   visibility: hidden;
   overflow: hidden;
@@ -263,7 +263,7 @@ em {
 .page-section > p > a:hover {
   text-decoration: none;
   font-weight: bolder;
-  font-size: 1.1em;
+  font-size: 1.05em;
   color: #444444;
 }
 
