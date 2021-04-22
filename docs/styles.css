@@ -49,7 +49,7 @@ body {
 
 .typewriter-page {
   margin: 0 auto; /*centers*/
-  max-width: 45em;
+  max-width: 43em;
 
   background-color: #FAFAFA; /* off-white */
 
@@ -58,8 +58,8 @@ body {
 
   line-height: 1.5;
   padding: 1em 1em;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 
   display: flex;
   justify-content: center;
@@ -146,15 +146,23 @@ nav.main-nav > ul > li > a:hover {
   border-right: 2px solid #444444;
 }
 
-/* makes invisible space for a:hover changes, so lines aren't thrown off */
+/* buggy - supposed to make invisible space for a:hover changes, so lines aren't thrown off, but custom attribute seems to mess it up
 nav.main-nav > ul > li > a::after {
-  font-weight: bolder;
+  content: attr(data-text);
+  content: attr(data-text) / "";
+  height: 0;
   font-size: 1em;
+  font-weight: bolder;
   visibility: hidden;
   overflow: hidden;
   user-select: none;
   pointer-events: none;
-}
+
+  @media speech {
+    display: none;
+  }
+
+} */
 
 .image-and-header {
   display: flex;
@@ -259,7 +267,7 @@ em {
   color: #444444;
 }
 
-/* makes invisible space for a:hover changes, so lines aren't thrown off */
+/* supposed to make invisible space for a:hover changes, so lines aren't thrown off - need to add custom attributes and set display content to those attributes
 .page-section > p > a::after {
   font-weight: bolder;
   font-size: 1.1em;
@@ -267,7 +275,7 @@ em {
   overflow: hidden;
   user-select: none;
   pointer-events: none;
-}
+} */
 
 .menu-container > h1 {
   padding-top: 1.5em;
