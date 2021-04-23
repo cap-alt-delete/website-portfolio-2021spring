@@ -127,42 +127,44 @@ nav.main-nav > ul > li {
 
 nav.main-nav > ul > li > a {
   text-decoration: none;
-  font-weight: bold;
-  font-size: .9em;
+  font-weight: 700; /* Use explicit font-weight, rather than relative keyword */
+  font-size: .9rem; /* Use rem instead of em to be consistent across parent/child */
   color: #A91B0D; /*red pen color*/
   padding-left: .7em;
   padding-right: .7em;
   border-left: 2px solid #A91B0D; /*removes border from HTML, makes link better for speech reader*/
   border-right: 2px solid #A91B0D;
   border-radius: 1px;
+
+  /* These get OG alignment back */
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 nav.main-nav > ul > li > a:hover {
   text-decoration: none;
-  font-weight: bolder;
-  font-size: .95em;
+  font-weight: 900;
+  font-size: .95rem;
   color: #444444;
   border-left: 2px solid #444444;
   border-right: 2px solid #444444;
 }
 
-/* buggy - supposed to make invisible space for a:hover changes, so lines aren't thrown off, but custom attribute seems to mess it up
+/* to make invisible space for a:hover changes */
 nav.main-nav > ul > li > a::after {
   content: attr(data-text);
   content: attr(data-text) / "";
   height: 0;
-  font-size: .95em;
-  font-weight: bolder;
+  font-size: .95rem; /* Use rem instead of em to be consistent across parent/child */
+  font-weight: 900; /* Use explicit font-weight, rather than relative keyword */
   visibility: hidden;
   overflow: hidden;
   user-select: none;
   pointer-events: none;
-
-  @media speech {
-    display: none;
-  }
-
-} */
+}
 
 .image-and-header {
   display: flex;
@@ -255,27 +257,44 @@ em {
 .page-section > p > strong,
 .credits-section > a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700; /* use explicit font-weight */
   color: #A91B0D;
-  font-size: 1em;
+  font-size: 1rem; /* rem to be consistent parent-child*/
+  /*to get alignment back*/
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-section > p > a:hover {
   text-decoration: none;
-  font-weight: bolder;
-  font-size: 1.05em;
+  font-weight: 900; /* use explicit font-weight */
+  font-size: 1.05rem;
   color: #444444;
 }
 
-/* supposed to make invisible space for a:hover changes, so lines aren't thrown off - need to add custom attributes and set display content to those attributes
+/* to make invisible space for a:hover changes */
 .page-section > p > a::after {
-  font-weight: bolder;
-  font-size: 1.1em;
+  content: attr(hover-text);
+  content: attr(hover-text) / "";
+  height: 0;
+  font-weight: 900; /* use explicit font-weight */
+  font-size: 1.05rem;
   visibility: hidden;
   overflow: hidden;
   user-select: none;
   pointer-events: none;
-} */
+}
+
+@media speech {
+  nav.main-nav > ul > li > a::after {
+    display: none;
+  }
+  .page-section > p > a::after {
+    display: none;
+  }
+}
 
 .menu-container > h1 {
   padding-top: 1.5em;
